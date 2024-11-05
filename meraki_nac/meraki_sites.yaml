@@ -1,0 +1,15 @@
+---
+- hosts: meraki_servers
+  gather_facts: false
+  tasks:
+    - name: Create a new site
+      cisco.meraki.networks:
+        name: "{{ item.name }}"
+        notes: "{{ item.notes }}"
+        organizationId: "237976"
+        productTypes: "{{ item.product_types }}"
+        tags: "{{ item.tags }}"
+        timeZone: "{{ item.timezone }}"
+        meraki_suppress_logging: true
+      loop: "{{ sites }}"
+

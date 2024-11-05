@@ -1,0 +1,29 @@
+meraki_servers:
+  hosts:
+    meraki_server:
+      sites:
+        - name: 'PVT 1'
+          notes: 'First site'
+          product_types: ["appliance"]
+          tags: ["PVT1", "ansible"]
+          timezone: "Europe/Helsinki"
+        - name: 'PVT 2'
+          notes: 'Second site'
+          product_types: ["appliance"]
+          tags: ["PVT2", "ansible"]
+          timezone: "Europe/Helsinki"
+        - name: 'PVT 3'
+          notes: 'Third site'
+          product_types: ["appliance"]
+          tags: ["PVT3", "ansible"]
+          timezone: "Europe/Helsinki"
+        - name: 'PVT 4'
+          notes: 'Fourth site'
+          product_types: ["appliance"]
+          tags: ["PVT4", "ansible"]
+          timezone: "Europe/Helsinki"
+        - name: 'PVT 5'
+          notes: 'Fifth site'
+          product_types: ["appliance"]
+          tags: ["PVT5", "ansible"]
+          timezone: "Europe/Helsinki"
