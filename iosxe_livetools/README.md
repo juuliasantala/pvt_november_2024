@@ -1,6 +1,6 @@
 # Run pings and traceroute with IOS XE
 
-**NOTE: due to issues with lab, the final script has not been tested. The script will be tested ASAP and possible bugs fixed.** 
+**NOTE: due to issues with lab, the final script has not been tested. The flask script will be added as soon as it has been validated against a real environment, to make sure that there are no bugs.** 
 
 > *Note*: The livetools YANG actions available on IOS XE v. 17.15 - the script won't work against an older version.
 
