@@ -4,6 +4,8 @@
 
 > *Note*: The livetools YANG actions available on IOS XE v. 17.15 - the script won't work against an older version.
 
+**Below steps will work once the Flask file is pushed to the repo. Until then, please refer to the `livetools_functions.py` to understand the usage of these YANG models in RESTCONF setup.**
+
 1. Create a file `.env` from the `env.template`
     ```bash
     cp env.template .env
